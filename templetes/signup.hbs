@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 96vh;
+            background: url('https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148871843.jpg');
+            background-size: cover;
+            background-position: center;
+
+        }
+        h1{
+            color: aqua;
+        }
+    </style>
 </head>
+
 <body>
     <h1>Sign Up</h1>
 
     <form action="/signup" method="post">
-    <input type="text" name="name" placeholder="Name">
-    <input type="password" name="password" placeholder="Password">
-    <input type="submit">
-    
+        <input type="text" name="name" placeholder="Name">
+        <input type="password" name="password" placeholder="Password">
+        <input type="submit">
+
     </form>
 </body>
+
 </html>
